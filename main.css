@@ -1,0 +1,548 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.planoDeFundo {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(IMAGENS/create\ one\ person\ using\ a\ jaguar\ mask\ on\ the\ face.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: -2;
+    overflow-y: scroll
+}
+
+a {
+    text-decoration: none;
+}
+
+.topoDaPagina {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 5vw;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    z-index: 1;
+}
+
+.topoDaPagina img {
+    width: 8vw;
+    height: auto;
+    position: relative; top: 0.5vw; right: 1.5vw;
+}
+
+.topoDaPagina h1 {
+    color: rgb(146, 54, 146);
+    font-size: 3.3vw;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    position: relative; right: 2vw;
+}
+
+.botaoMenu {
+    display: flex;
+}
+
+.itensMenu {
+    display: flex;
+    list-style: none;
+    gap: 10vw;
+    font-size: 2vw;
+    margin-left: 5vw;
+}
+
+.itensMenu a {
+    display: flex;
+    width: 9vw;
+    height: auto;
+    font-weight: 800;
+}
+
+.a1 {
+    background-color: rgb(146, 54, 146, 0.8);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+}
+
+.a2 {
+    background-color: rgb(146, 54, 146, 0.8);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+}
+
+.a3 {
+    background-color: rgb(146, 54, 146, 0.8);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+}
+
+.itensMenu p {
+    position: relative; left: 0.5vw;
+}
+
+.menuAberto {
+    color: rgb(146, 54, 146);
+    background-color: white;
+    text-shadow: none;
+}
+
+.itensMenu a:hover {
+    color: rgb(146, 54, 146);
+    background-color: white;
+    text-shadow: none;
+}
+
+.apresentacao {
+    box-sizing: border-box;
+    background-color: rgb(146, 54, 146, 0.7);
+    height: 39.0625vw;
+    width: 35.807291666667vw;
+    margin-top: 116.5px;
+    margin-left: 8.0240885416667vw;
+    align-items: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.apresentacao h2 {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: black;
+    font-size: 2.4vw;
+    letter-spacing: 0.15vw;
+    font-weight: 900;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 4%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.apresentacao pre {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color:  black;
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 0.12vw;
+    font-weight: 750;
+}
+
+.centro {
+    box-sizing: border-box;
+    border: 0;
+    contain: 0;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    height: 44vw;
+}
+
+.botaoCentro {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 39.0625vw;
+    width: 35.807291666667vw;
+    position: relative; bottom: 39.0625vw; left: 56.168619791667vw;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.tituloBotaoCentro{
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: rgb(146, 54, 146, 0.8);
+    width: 25.911458333333vw;
+    font-size: 2.1484375vw;
+    font-weight: 1000;
+    position: relative; left: 4.9479166666667vw; top: 0.65104166666667vw;
+}
+
+.botaoCentro a {
+    display: flex;
+    background-color: rgb(146, 54, 146, 0.8);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+    width: 11.71875vw;
+    height: 5.2083333333333vw;
+    font-weight: 800;
+    border-radius: 0.32552083333333vw;
+}
+
+.b1 {
+    position: relative; top: 5.2083333333333vw; left: 2.6041666666667vw;
+}
+
+.p1 {
+    font-size: 2.9296875vw;
+    position: relative; top: 0.78125vw; left: 0.065104166666667vw;
+}
+
+.b3 {
+    position: relative; top: 5.2083333333333vw; left: 2.6041666666667vw;
+}
+
+.p3 {
+    font-size: 2.6041666666667vw;
+    position: relative; top: 1.0416666666667vw; left: 0.35807291666667vw;
+}
+
+.b2 {
+    position: relative; left: 21.484375vw;
+}
+
+.p2 {
+    font-size: 1.953125vw;
+    position: relative; top: 1.4322916666667vw; left: 0.32552083333333vw;
+}
+
+.b4 {
+    position: relative; left: 21.484375vw;
+}
+
+.p4 {
+    font-size: 2.9296875vw;
+    position: relative; top: 0.9765625vw; left: 0.68359375vw;
+}
+
+.botaoCentro a:hover {
+    background-color: white;
+    color: rgb(146, 54, 146);
+    text-shadow: none;
+    width: 11.71875vw;
+    height: 5.2083333333333vw;
+    border-radius: 0.32552083333333vw;
+}
+
+.botaoCentro pre {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: rgb(146, 54, 146, 0.8);
+    font-size: 1.4973958333333vw;
+    font-weight: 600;
+    position: relative; left: 7.5846354166667vw; top: 5.2083333333333vw;
+    line-height: 1.5;
+}
+
+#linkSobreNos {
+    height: 10vh;
+}
+
+#tituloSobreNos {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 4.5572916666667vw;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#tituloSobreNos h1 {
+    position: relative; left: 30.2%; top: 5px;
+    font-size: 3.2552083333333vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 2px  black;
+    color: transparent;
+    color: rgb(146, 54, 146);
+}
+
+#sobreNos {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 58.59375vw;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#sobreNos pre {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: rgb(146, 54, 146, 0.8);
+    font-size: 1.3671875vw;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+  }
+
+/* Pagina 2*/
+
+.planoDeFundo2 {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(IMAGENS/create\ one\ person\ using\ a\ jaguar\ mask\ on\ the\ face\ \(2\).jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: -2;
+    overflow-y: scroll
+}
+
+.tituloFormulario {
+    position: relative; left: 27.018229166667vw; top: 15vh;
+}
+
+.tituloFormulario h1 {
+    font-size: 3.5vw;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(146, 54, 146);
+    -webkit-text-stroke: 1.6px  rgb(255, 255, 255);
+}
+  
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 58.59375vw;
+    height: 150vh;
+    margin: auto;
+    padding: 1.3020833333333vw;
+    z-index: -1;
+    position: relative; top: 20%;
+}
+
+.nome {
+    color: rgb(146, 54, 146);
+    position: relative; left: 0.8vw;
+    margin-bottom: 1.953125vw;
+    font-size: 1.953125vw;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    opacity: 1;
+}
+
+.email {
+    color: rgb(146, 54, 146);
+    position: relative; left: 0.8vw;
+    margin-top: 3.2552083333333vw;
+    margin-bottom: 1.953125vw;
+    font-size: 1.953125vw;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    opacity: 1;
+}
+
+.cpf {
+    color: rgb(146, 54, 146);
+    position: relative; left: 0.8vw;
+    margin-top: 3.2552083333333vw;
+    margin-bottom: 1.953125vw;
+    font-size: 1.953125vw;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    opacity: 1;
+}
+
+.telefone {
+    color: rgb(146, 54, 146);
+    position: relative; left: 0.8vw;
+    margin-top: 3.2552083333333vw;
+    margin-bottom: 1.953125vw;
+    font-size: 1.953125vw;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    opacity: 1;
+}
+
+.sugestao {
+    color: rgb(146, 54, 146);
+    position: relative; left: 0.8vw;
+    margin-top: 3.2552083333333vw;
+    margin-bottom: 1.953125vw;
+    font-size: 1.953125vw;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    opacity: 1;
+}
+
+.preencher1 {
+    width: 54.752604166667vw;
+    height: 3.2552083333333vw;
+    background-color: white;
+    position: relative; left: 0.5859375vw; bottom: 1.1067708333333vw;
+    opacity: 1;
+    font-size: 1.3020833333333vw;
+    padding-left: 0.65104166666667vw;
+}
+
+.preencher2 {
+    width: 54.752604166667vw;
+    height: 19.53125vw;
+    background-color: white;
+    position: relative; bottom: 1.1067708333333vw; left: 0.65104166666667vw;
+    opacity: 1;
+    font-size: 1.3020833333333vw;
+    padding-top: 0.65104166666667vw;
+    padding-left: 0.65104166666667vw;
+}
+
+.botaoEnviar {
+    background-color: white;
+    color: rgb(146, 54, 146);
+    border: none;
+    padding: 0.65104166666667vw 1.3020833333333vw;
+    font-size: 1.3020833333333vw;
+    cursor: pointer;
+    margin-top: 0.9765625vw;
+    width: 19.53125vw;
+    position: relative; left: 33.333333333333%;
+ }
+
+ .botaoEnviar:hover {
+    background-color: rgb(146, 54, 146, 0.9);
+    color: white;
+    opacity: 0.8;
+    text-shadow: none;
+    cursor: pointer;
+ }
+
+ .espacamentoFormulario {
+    width: 10%;
+    height: 30%;
+ }
+
+ /* Pagina 3*/
+ 
+ .planoDeFundo3 {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(IMAGENS/jaguar\ 2.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.redesSociais {
+position: relative; top: 28vh; right: 2vw;
+opacity: 0.95;
+}
+
+.logoyt {
+    width: 32.552083333333vw;
+    height: auto;
+}
+
+.logott {
+    width: 22.786458333333vw;
+    height: auto;
+    position: relative; right: 5vw;
+}
+
+.logoig {
+    width: 20.833333333333vw;
+    height: auto;
+    position: relative; right: 4vw; bottom: 2vh;
+}
+
+.logodd {
+    width: 24.088541666667vw;
+    height: auto;
+    position: relative; bottom: 20vw; left: 75vw;
+}
+
+ 
+/* Pagina 4*/
+
+.planoDeFundo4 {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(IMAGENS/jaguar.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.Chat {
+    position: relative; left: 32vw; top: 30vh;
+}
+
+.ChatDoChat{
+    height: 80vh;
+    width: 100vw;
+    overflow-y: auto;
+    background-color: transparent;
+    position: relative; right: 32vw; bottom: 19vh;
+    margin-bottom: 2.5vh;
+}
+
+.chatPrincipal{
+    height: auto;
+    width: 98vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative; top: 1vh; left: 1vw;
+}
+
+#controladorChat {
+    width: 0px;
+    height: 0px;
+    border: none;
+}
+
+#msgUser {
+    height: 6.8vh;
+    width: 92vw;
+    position: relative; bottom: 19.8vh; right: 31.79vw;
+    background-color: white;
+    border-radius: 20px;
+    resize: none;
+    padding: 0 10px;
+}
+
+#msgBot {
+    height: 0vh;
+    width: 0vw;
+    border: none;
+    opacity: 0;
+}
+
+#botaoEnviar {
+    position: relative; bottom: 22.5vh; right: 31.7vw;
+    width: 6.6vw;
+    height: 6.8vh;
+    background-color: rgb(146, 54, 146);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5vw;
+}
+
+#botaoEnviar:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(146, 54, 146);
+    cursor: pointer;
+}  
